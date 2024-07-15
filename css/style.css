@@ -22,6 +22,7 @@ a {
 body {
     font-family: "Lato", sans-serif;
     font-style: normal;
+    background-color: #fff;
 }
 
 /* 
@@ -75,6 +76,103 @@ body {
 /* 
                                                 Main.
     ===========================================================================================
+*/
+
+
+/* 
+                                Our featured flowers section.
+    =======================================================================================
+*/
+#our_featured_flowers_section {
+    margin: 11.125rem 15rem 0;
+    text-align: center;
+}
+
+/* Our featured flowers text. */
+#our_featured_flowers_section article {
+    padding: 0 26.438rem;
+    margin-bottom: 3rem;
+}
+
+#our_featured_flowers_section article h3 {
+    margin-bottom: 1.5rem;
+    color: rgb(39, 39, 39);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3rem;
+}
+
+#our_featured_flowers_section article p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.featured_for_margin {
+    margin-bottom: 8rem;
+}
+
+.featured_section_flower {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.featured_section_flower div div {
+    height: 33.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    border-radius: 18.75rem 18.75rem 0px 0px;
+}
+
+.pink_flower_bg {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.red_flower_bg {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+#red_image_center img {
+    padding-bottom: 3.188rem;
+}
+
+.yellow_flower_bg {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.featured_section_flower div a {
+    color: rgb(39, 39, 39);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.188rem;
+    text-decoration-line: underline;
+}
+
+/* Delivery div. */
+.delivery_div {
+    padding: 5.375rem 10.938rem;
+    border-radius: .5rem;
+    background: rgba(39, 39, 39, 0.05);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6.25rem;
+}
+
+.delivery_div p {
+    margin-top: 1.5rem;
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.188rem;
+}
+
+/* 
+                                 section.
+    =======================================================================================
 */
 
 
