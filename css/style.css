@@ -255,7 +255,81 @@ body {
     gap: 1.5rem;
 }
 
-#instagram_section img {}
+
+
+
+/* 
+                                Get the latest deal section.
+    =======================================================================================
+*/
+#get_the_latest_deal_section {
+    margin: 8rem 15rem;
+    background-image: url("../assets/media/images/flower_10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: .5rem;
+}
+
+#get_the_latest_deal_section>div {
+    padding: 7.625rem 17.938rem;
+}
+
+#get_the_latest_deal_section article {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#get_the_latest_deal_section h3 {
+    color: rgb(39, 39, 39);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+
+#get_the_latest_deal_section p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    text-align: center;
+}
+
+#get_the_latest_deal_section div div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+#get_the_latest_deal_section div div input {
+    padding: 1.438rem;
+    border-radius: .5rem;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border: none;
+}
+
+#get_the_latest_deal_section div div input::placeholder {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.188rem;
+    letter-spacing: 0%;
+}
+
+#get_the_latest_deal_section div div button {
+    border: none;
+    padding: 1.143rem 1.938rem;
+    border-radius: .5rem;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
 
 
 
