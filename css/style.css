@@ -343,3 +343,37 @@ body {
                                     Flower shop section.
     =======================================================================================
 */
+#flower_shop_section {
+    text-align: center;
+    background: rgb(17, 16, 16);
+}
+
+#flower_shop_section div {
+    padding: 8rem 40.5rem;
+}
+
+#flower_shop_section h3 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 3.625rem;
+    color: #fff;
+}
+
+#flower_shop_section h3 span {
+    color: #E55473;
+}
+
+#flower_shop_section p {
+    margin: 1.5rem 0 2rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+#flower_shop_section p small {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.188rem;
+}
