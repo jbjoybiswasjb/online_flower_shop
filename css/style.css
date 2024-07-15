@@ -171,9 +171,52 @@ body {
 }
 
 /* 
-                                 section.
+                                        Hot deal section.
     =======================================================================================
 */
+#what_deal_section {
+    border-radius: .5rem;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+}
+
+#what_deal_section>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11.625rem;
+    padding: 6.25rem 24.688rem;
+}
+
+#what_deal_section div div h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 3rem;
+    color: #272727;
+}
+
+.pink_heading {
+    color: #E55473;
+}
+
+#what_deal_section div div p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 1.5rem 0 2rem;
+}
+
+#what_deal_section div div a {
+    border-radius: .5rem;
+    background: rgb(229, 84, 115);
+    padding: 1.25rem 2.688rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    display: inline-block;
+}
 
 
 
